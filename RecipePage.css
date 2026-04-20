@@ -1,0 +1,35 @@
+/* General styles */
+/* Form styles */
+form {
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: #333;
+  background-color: #fff;
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+/* Style the ordered list for ingredients */
+ol {
+  padding-left: 20px;  /* Add a small padding for indentation */
+  margin: 0;  /* Remove margin */
+  list-style-position: inside; /* Make numbers inside the list */
+}
+
+li {
+  margin-bottom: 5px;  /* Optional: Add space between ingredients */
+  font-size: 16px; /* Optional: Adjust font size */
+}
+
+
+/* Recipe image on the side */
+.recipe-image-side img {
+  width: 100%;
+  max-width: 200px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+  

@@ -1,0 +1,54 @@
+/* ContactUs.css */
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: auto;
+  }
+  
+  div {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    margin-bottom: 5px;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #af4c91;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #a04588;
+  }
+  /* Ensure the button does not inherit link styles */
+.remove-button {
+  display: inline-block;
+  text-decoration: none;
+  color: white; /* Or any color you prefer */
+}
+
+/* Optional: Make sure links are not affected by button styles */
+.recipe-link a {
+  text-decoration: none; /* Remove underline from link */
+  color: inherit; /* Inherit color from parent */
+}
+
+.remove-favorite-btn {
+  margin-top: 10px; /* Space between the link and button */
+  text-align: center; /* Center the button */
+}
+
+.recipe-link {
+  text-align: center; /* Center the link text */
+}

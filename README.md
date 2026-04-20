@@ -1,5 +1,5 @@
 # DatabaseFinalProject
-Tastemade: Recipe Web App
+**Tastemade: Recipe Web App**
 Guideline for Accessing and Running the Project
 
 Prerequisites Make sure the following are installed on your system:
